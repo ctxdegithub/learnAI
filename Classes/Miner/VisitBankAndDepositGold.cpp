@@ -20,7 +20,7 @@ void VisitBankAndDepositGold::onEnter(Miner* pMiner)
     if (pMiner->getLocationType() != Miner::BANK)
     {
         CCLOG("%s: leavein the bank.", pMiner->getName());
-        pMiner->setLocationType(Miner::BANK);
+        pMiner->setTargetLocationType(Miner::BANK);
     }
 }
 

@@ -9,7 +9,7 @@
 #ifndef __test226__GoHomeAndSleepTilRested__
 #define __test226__GoHomeAndSleepTilRested__
 
-#include "State.h"
+#include "../FSM/State.h"
 #include "Miner.h"
 
 class GoHomeAndSleepTilRested : public State<Miner>
@@ -19,9 +19,14 @@ public:
     virtual void onEnter(Miner* pMiner);
     virtual void onExit(Miner* pMiner);
     virtual void execute(Miner* pMiner);
+    virtual bool onMessage(Miner* pMiner, const Telegram& msg);
     
 private:
     GoHomeAndSleepTilRested() {}
+    
+private:
+    bool m_bWaitingStew;
+    bool m_bSendToEat;
 };
 
 

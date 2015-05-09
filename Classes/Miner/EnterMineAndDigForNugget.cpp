@@ -20,7 +20,7 @@ void EnterMineAndDigForNugget::onEnter(Miner *pMiner)
     if (pMiner->getLocationType() != Miner::GOLDMINE)
     {
         CCLOG("%s: walkin to the gold mine.", pMiner->getName());
-        pMiner->setLocationType(Miner::GOLDMINE);
+        pMiner->setTargetLocationType(Miner::GOLDMINE);
     }
 }
 
@@ -31,8 +31,9 @@ void EnterMineAndDigForNugget::onExit(Miner *pMiner)
 
 void EnterMineAndDigForNugget::execute(Miner *pMiner)
 {
-    pMiner->addToGoldCarried(rand() % 25);
+    pMiner->addToGoldCarried(rand() % 8);
     pMiner->increaseFatigue();
+    pMiner->increaseThirsty();
 
     if (pMiner->isThirsty())
     {

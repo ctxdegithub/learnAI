@@ -47,7 +47,6 @@ Miner::Miner(int id) :
     m_bFatigue(false),
     m_bThirst(false)
 {
-    
     m_pStateMachine = new StateMachine<Miner>(this);
     m_pStateMachine->setCurrentState(GoHomeAndSleepTilRested::getInstance());
     m_pStateMachine->setGlobalState(EnterMineAndDigForNugget::getInstance());
@@ -68,8 +67,7 @@ bool Miner::init()
     }
     m_nextArea = getArea(HOME_POS);
     setPosition(m_ptPos);
-    m_drawNode = DrawNode::create();
-    addChild(m_drawNode);
+
     m_drawNode->drawDot(Vec2(0, 0), 15.f, Color4F(1.f, 0.f, 0.f, 1.f));
     
     m_minerUI = nullptr;
@@ -81,23 +79,24 @@ const char* Miner::getName()
     return m_strName.c_str();
 }
 
+void Miner::handleMessage(const Telegram& msg)
+{
+    m_pStateMachine->handleMessage(msg);
+}
+
 void Miner::update(float dt)
 {
     updatePos(dt);
     if (m_locationType == ON_THE_WAY)
     {
-        m_iThirst += rand() % 200 < 20 ? 1 : 0;
-        if (m_iThirst >= m_iMaxThirst)
-        {
-            m_bThirst = true;
-        }
+        this->increaseThirsty();
         m_minerUI->updateUI();
         return;
     }
     
     m_pStateMachine->update(dt);
-    CCLOG("%s: thirst:(%d/%d), fatigue:(%d/%d), gold:(%d/%d), money:%d", getName(),
-          m_iThirst, m_iMaxThirst, m_iFatigue, m_iMaxFatigue, m_iGoldCarried, m_iMaxGoldCarried, m_iMoneyInBank);
+//    CCLOG("%s: thirst:(%d/%d), fatigue:(%d/%d), gold:(%d/%d), money:%d", getName(),
+//          m_iThirst, m_iMaxThirst, m_iFatigue, m_iMaxFatigue, m_iGoldCarried, m_iMaxGoldCarried, m_iMoneyInBank);
 }
 
 void Miner::updatePos(float dt)
@@ -193,6 +192,22 @@ bool Miner::isThirsty()
     return m_bThirst;
 }
 
+void Miner::increaseThirsty()
+{
+    if (m_locationType == GOLDMINE)
+    {
+        m_iThirst += rand() % 200 < 20 ? 5 : 1;
+    }
+    else if (m_locationType == ON_THE_WAY)
+    {
+        m_iThirst += rand() % 200 < 20 ? 1 : 0;
+    }
+    if (m_iThirst >= m_iMaxThirst)
+    {
+        m_bThirst = true;
+    }
+}
+
 void Miner::buyADirnk()
 {
     int drinkCost = rand() % 5;
@@ -223,18 +238,37 @@ void Miner::buyADirnk()
     m_minerUI->updateUI();
 }
 
+void Miner::justDrink()
+{
+    m_iThirst -= rand() % 15;
+    if (m_iThirst < 0)
+    {
+        m_iThirst = 0;
+    }
+    if (m_bThirst && m_iThirst < m_iThirstLow)
+    {
+        m_bThirst = false;
+    }
+    
+    m_minerUI->updateUI();
+}
+
 bool Miner::isFatigued()
 {
     return m_bFatigue;
 }
 
-bool Miner::setLocationType(LocationType location)
+void Miner::hitFly()
 {
-    if (m_locationType == ON_THE_WAY)
+    this->increaseFatigue();
+}
+
+void Miner::setTargetLocationType(LocationType location)
+{
+    if (m_targetLocationType == location)
     {
-        return false;
+        return;
     }
-    
     switch (location)
     {
         case HOME:
@@ -255,6 +289,4 @@ bool Miner::setLocationType(LocationType location)
     m_locationType = ON_THE_WAY;
     m_targetLocationType = location;
     m_nextArea = getArea(m_ptPos);
-    return true;
 }
-

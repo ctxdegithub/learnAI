@@ -14,5 +14,7 @@
 #include "QuenchThirst.h"
 #include "GoHomeAndSleepTilRested.h"
 #include "GoToWorldBuyHouse.h"
+#include "EatStew.h"
+#include "HitFly.h"
 
 #endif

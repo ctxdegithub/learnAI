@@ -21,7 +21,7 @@ void GoToWorldBuyHouse::onEnter(Miner* pMiner)
     if (pMiner->getLocationType() != Miner::WORLD)
     {
         CCLOG("%s: goto world.", pMiner->getName());
-        pMiner->setLocationType(Miner::WORLD);
+        pMiner->setTargetLocationType(Miner::WORLD);
     }
 }
 

@@ -57,32 +57,12 @@
 		DABD483095999368E11E7911 /* res in Resources */ = {isa = PBXBuildFile; fileRef = E4E9495E93D700EF88A10783 /* res */; };
 		F53606011AFCC86C0020B1E2 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F53605EA1AFCC86C0020B1E2 /* AppDelegate.cpp */; };
 		F53606021AFCC86C0020B1E2 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F53605EA1AFCC86C0020B1E2 /* AppDelegate.cpp */; };
-		F53606031AFCC86C0020B1E2 /* BaseGameEntity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F53605EC1AFCC86C0020B1E2 /* BaseGameEntity.cpp */; };
-		F53606041AFCC86C0020B1E2 /* BaseGameEntity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F53605EC1AFCC86C0020B1E2 /* BaseGameEntity.cpp */; };
 		F53606051AFCC86C0020B1E2 /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F53605EE1AFCC86C0020B1E2 /* HelloWorldScene.cpp */; };
 		F53606061AFCC86C0020B1E2 /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F53605EE1AFCC86C0020B1E2 /* HelloWorldScene.cpp */; };
-		F53606071AFCC86C0020B1E2 /* Miner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F53605F01AFCC86C0020B1E2 /* Miner.cpp */; };
-		F53606081AFCC86C0020B1E2 /* Miner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F53605F01AFCC86C0020B1E2 /* Miner.cpp */; };
-		F53606091AFCC86C0020B1E2 /* MinerUI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F53605F21AFCC86C0020B1E2 /* MinerUI.cpp */; };
-		F536060A1AFCC86C0020B1E2 /* MinerUI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F53605F21AFCC86C0020B1E2 /* MinerUI.cpp */; };
-		F536060B1AFCC86C0020B1E2 /* QuenchThirst.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F53605F41AFCC86C0020B1E2 /* QuenchThirst.cpp */; };
-		F536060C1AFCC86C0020B1E2 /* QuenchThirst.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F53605F41AFCC86C0020B1E2 /* QuenchThirst.cpp */; };
-		F536060D1AFCC86C0020B1E2 /* State.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F53605F61AFCC86C0020B1E2 /* State.cpp */; };
-		F536060E1AFCC86C0020B1E2 /* State.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F53605F61AFCC86C0020B1E2 /* State.cpp */; };
-		F536060F1AFCC86C0020B1E2 /* StateMachine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F53605F81AFCC86C0020B1E2 /* StateMachine.cpp */; };
-		F53606101AFCC86C0020B1E2 /* StateMachine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F53605F81AFCC86C0020B1E2 /* StateMachine.cpp */; };
-		F53606111AFCC86C0020B1E2 /* VisitBankAndDepositGold.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F53605FB1AFCC86C0020B1E2 /* VisitBankAndDepositGold.cpp */; };
-		F53606121AFCC86C0020B1E2 /* VisitBankAndDepositGold.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F53605FB1AFCC86C0020B1E2 /* VisitBankAndDepositGold.cpp */; };
 		F53606131AFCC86C0020B1E2 /* WaterWave.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F53605FD1AFCC86C0020B1E2 /* WaterWave.cpp */; };
 		F53606141AFCC86C0020B1E2 /* WaterWave.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F53605FD1AFCC86C0020B1E2 /* WaterWave.cpp */; };
 		F53606151AFCC86C0020B1E2 /* WorldMap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F53605FF1AFCC86C0020B1E2 /* WorldMap.cpp */; };
 		F53606161AFCC86C0020B1E2 /* WorldMap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F53605FF1AFCC86C0020B1E2 /* WorldMap.cpp */; };
-		F53606191AFCC89B0020B1E2 /* EnterMineAndDigForNugget.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F53606171AFCC89B0020B1E2 /* EnterMineAndDigForNugget.cpp */; };
-		F536061A1AFCC89B0020B1E2 /* EnterMineAndDigForNugget.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F53606171AFCC89B0020B1E2 /* EnterMineAndDigForNugget.cpp */; };
-		F536061D1AFCC8BA0020B1E2 /* GoHomeAndSleepTilRested.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F536061B1AFCC8BA0020B1E2 /* GoHomeAndSleepTilRested.cpp */; };
-		F536061E1AFCC8BA0020B1E2 /* GoHomeAndSleepTilRested.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F536061B1AFCC8BA0020B1E2 /* GoHomeAndSleepTilRested.cpp */; };
-		F53606211AFCD7E00020B1E2 /* GoToWorldBuyHouse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F536061F1AFCD7E00020B1E2 /* GoToWorldBuyHouse.cpp */; };
-		F53606221AFCD7E00020B1E2 /* GoToWorldBuyHouse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F536061F1AFCD7E00020B1E2 /* GoToWorldBuyHouse.cpp */; };
 		F536ED701AFA7C6800F0A3DF /* tortoise.c3b in Resources */ = {isa = PBXBuildFile; fileRef = F536ED6E1AFA7C6800F0A3DF /* tortoise.c3b */; };
 		F536ED711AFA7C6800F0A3DF /* tortoise.c3b in Resources */ = {isa = PBXBuildFile; fileRef = F536ED6E1AFA7C6800F0A3DF /* tortoise.c3b */; };
 		F536ED721AFA7C6800F0A3DF /* tortoise.png in Resources */ = {isa = PBXBuildFile; fileRef = F536ED6F1AFA7C6800F0A3DF /* tortoise.png */; };
@@ -93,6 +73,38 @@
 		F536ED7D1AFA8B1D00F0A3DF /* water.frag in Resources */ = {isa = PBXBuildFile; fileRef = F536ED7B1AFA8B1D00F0A3DF /* water.frag */; };
 		F536ED811AFA8F0000F0A3DF /* water.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F536ED801AFA8F0000F0A3DF /* water.jpg */; };
 		F536ED821AFA8F0000F0A3DF /* water.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F536ED801AFA8F0000F0A3DF /* water.jpg */; };
+		F5407FAB1AFDD7DC005684E7 /* BaseGameEntity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5407FA81AFDD7DC005684E7 /* BaseGameEntity.cpp */; };
+		F5407FAC1AFDD7DC005684E7 /* BaseGameEntity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5407FA81AFDD7DC005684E7 /* BaseGameEntity.cpp */; };
+		F5407FBE1AFDD7F5005684E7 /* EnterMineAndDigForNugget.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5407FAF1AFDD7F5005684E7 /* EnterMineAndDigForNugget.cpp */; };
+		F5407FBF1AFDD7F5005684E7 /* EnterMineAndDigForNugget.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5407FAF1AFDD7F5005684E7 /* EnterMineAndDigForNugget.cpp */; };
+		F5407FC01AFDD7F5005684E7 /* GoHomeAndSleepTilRested.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5407FB11AFDD7F5005684E7 /* GoHomeAndSleepTilRested.cpp */; };
+		F5407FC11AFDD7F5005684E7 /* GoHomeAndSleepTilRested.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5407FB11AFDD7F5005684E7 /* GoHomeAndSleepTilRested.cpp */; };
+		F5407FC21AFDD7F5005684E7 /* GoToWorldBuyHouse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5407FB31AFDD7F5005684E7 /* GoToWorldBuyHouse.cpp */; };
+		F5407FC31AFDD7F5005684E7 /* GoToWorldBuyHouse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5407FB31AFDD7F5005684E7 /* GoToWorldBuyHouse.cpp */; };
+		F5407FC41AFDD7F5005684E7 /* Miner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5407FB51AFDD7F5005684E7 /* Miner.cpp */; };
+		F5407FC51AFDD7F5005684E7 /* Miner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5407FB51AFDD7F5005684E7 /* Miner.cpp */; };
+		F5407FC61AFDD7F5005684E7 /* MinerUI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5407FB71AFDD7F5005684E7 /* MinerUI.cpp */; };
+		F5407FC71AFDD7F5005684E7 /* MinerUI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5407FB71AFDD7F5005684E7 /* MinerUI.cpp */; };
+		F5407FC81AFDD7F5005684E7 /* QuenchThirst.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5407FB91AFDD7F5005684E7 /* QuenchThirst.cpp */; };
+		F5407FC91AFDD7F5005684E7 /* QuenchThirst.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5407FB91AFDD7F5005684E7 /* QuenchThirst.cpp */; };
+		F5407FCA1AFDD7F5005684E7 /* VisitBankAndDepositGold.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5407FBC1AFDD7F5005684E7 /* VisitBankAndDepositGold.cpp */; };
+		F5407FCB1AFDD7F5005684E7 /* VisitBankAndDepositGold.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5407FBC1AFDD7F5005684E7 /* VisitBankAndDepositGold.cpp */; };
+		F5407FD01AFDD800005684E7 /* EntityManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5407FCC1AFDD800005684E7 /* EntityManager.cpp */; };
+		F5407FD11AFDD800005684E7 /* EntityManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5407FCC1AFDD800005684E7 /* EntityManager.cpp */; };
+		F5407FD21AFDD800005684E7 /* MessageDispatcher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5407FCE1AFDD800005684E7 /* MessageDispatcher.cpp */; };
+		F5407FD31AFDD800005684E7 /* MessageDispatcher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5407FCE1AFDD800005684E7 /* MessageDispatcher.cpp */; };
+		F5E97F3E1AFDE3870070477F /* CookStew.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5E97F371AFDE3870070477F /* CookStew.cpp */; };
+		F5E97F3F1AFDE3870070477F /* CookStew.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5E97F371AFDE3870070477F /* CookStew.cpp */; };
+		F5E97F401AFDE3870070477F /* DoHouseWork.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5E97F391AFDE3870070477F /* DoHouseWork.cpp */; };
+		F5E97F411AFDE3870070477F /* DoHouseWork.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5E97F391AFDE3870070477F /* DoHouseWork.cpp */; };
+		F5E97F421AFDE3870070477F /* MinerWife.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5E97F3B1AFDE3870070477F /* MinerWife.cpp */; };
+		F5E97F431AFDE3870070477F /* MinerWife.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5E97F3B1AFDE3870070477F /* MinerWife.cpp */; };
+		F5E97F461AFDE4B40070477F /* EatStew.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5E97F441AFDE4B40070477F /* EatStew.cpp */; };
+		F5E97F471AFDE4B40070477F /* EatStew.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5E97F441AFDE4B40070477F /* EatStew.cpp */; };
+		F5E97F4A1AFDF1800070477F /* Fly.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5E97F481AFDF1800070477F /* Fly.cpp */; };
+		F5E97F4B1AFDF1800070477F /* Fly.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5E97F481AFDF1800070477F /* Fly.cpp */; };
+		F5E97F4F1AFDF54E0070477F /* HitFly.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5E97F4D1AFDF54E0070477F /* HitFly.cpp */; };
+		F5E97F501AFDF54E0070477F /* HitFly.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5E97F4D1AFDF54E0070477F /* HitFly.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -149,38 +161,55 @@
 		F3014FEF88BC17BF379EDC40 /* libcocos2d iOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libcocos2d iOS.a"; path = "/Applications/Cocos/frameworks/cocos2d-x-3.5/prebuilt/ios/libcocos2d iOS.a"; sourceTree = "<absolute>"; };
 		F53605EA1AFCC86C0020B1E2 /* AppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppDelegate.cpp; sourceTree = "<group>"; };
 		F53605EB1AFCC86C0020B1E2 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		F53605EC1AFCC86C0020B1E2 /* BaseGameEntity.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BaseGameEntity.cpp; sourceTree = "<group>"; };
-		F53605ED1AFCC86C0020B1E2 /* BaseGameEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseGameEntity.h; sourceTree = "<group>"; };
 		F53605EE1AFCC86C0020B1E2 /* HelloWorldScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HelloWorldScene.cpp; sourceTree = "<group>"; };
 		F53605EF1AFCC86C0020B1E2 /* HelloWorldScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloWorldScene.h; sourceTree = "<group>"; };
-		F53605F01AFCC86C0020B1E2 /* Miner.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Miner.cpp; sourceTree = "<group>"; };
-		F53605F11AFCC86C0020B1E2 /* Miner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Miner.h; sourceTree = "<group>"; };
-		F53605F21AFCC86C0020B1E2 /* MinerUI.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MinerUI.cpp; sourceTree = "<group>"; };
-		F53605F31AFCC86C0020B1E2 /* MinerUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MinerUI.h; sourceTree = "<group>"; };
-		F53605F41AFCC86C0020B1E2 /* QuenchThirst.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = QuenchThirst.cpp; sourceTree = "<group>"; };
-		F53605F51AFCC86C0020B1E2 /* QuenchThirst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuenchThirst.h; sourceTree = "<group>"; };
-		F53605F61AFCC86C0020B1E2 /* State.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = State.cpp; sourceTree = "<group>"; };
-		F53605F71AFCC86C0020B1E2 /* State.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = State.h; sourceTree = "<group>"; };
-		F53605F81AFCC86C0020B1E2 /* StateMachine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StateMachine.cpp; sourceTree = "<group>"; };
-		F53605F91AFCC86C0020B1E2 /* StateMachine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StateMachine.h; sourceTree = "<group>"; };
-		F53605FA1AFCC86C0020B1E2 /* States.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = States.h; sourceTree = "<group>"; };
-		F53605FB1AFCC86C0020B1E2 /* VisitBankAndDepositGold.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VisitBankAndDepositGold.cpp; sourceTree = "<group>"; };
-		F53605FC1AFCC86C0020B1E2 /* VisitBankAndDepositGold.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisitBankAndDepositGold.h; sourceTree = "<group>"; };
 		F53605FD1AFCC86C0020B1E2 /* WaterWave.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WaterWave.cpp; sourceTree = "<group>"; };
 		F53605FE1AFCC86C0020B1E2 /* WaterWave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterWave.h; sourceTree = "<group>"; };
 		F53605FF1AFCC86C0020B1E2 /* WorldMap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WorldMap.cpp; sourceTree = "<group>"; };
 		F53606001AFCC86C0020B1E2 /* WorldMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorldMap.h; sourceTree = "<group>"; };
-		F53606171AFCC89B0020B1E2 /* EnterMineAndDigForNugget.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EnterMineAndDigForNugget.cpp; sourceTree = "<group>"; };
-		F53606181AFCC89B0020B1E2 /* EnterMineAndDigForNugget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterMineAndDigForNugget.h; sourceTree = "<group>"; };
-		F536061B1AFCC8BA0020B1E2 /* GoHomeAndSleepTilRested.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GoHomeAndSleepTilRested.cpp; sourceTree = "<group>"; };
-		F536061C1AFCC8BA0020B1E2 /* GoHomeAndSleepTilRested.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoHomeAndSleepTilRested.h; sourceTree = "<group>"; };
-		F536061F1AFCD7E00020B1E2 /* GoToWorldBuyHouse.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GoToWorldBuyHouse.cpp; sourceTree = "<group>"; };
-		F53606201AFCD7E00020B1E2 /* GoToWorldBuyHouse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoToWorldBuyHouse.h; sourceTree = "<group>"; };
 		F536ED6E1AFA7C6800F0A3DF /* tortoise.c3b */ = {isa = PBXFileReference; lastKnownFileType = file; path = tortoise.c3b; sourceTree = "<group>"; };
 		F536ED6F1AFA7C6800F0A3DF /* tortoise.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tortoise.png; sourceTree = "<group>"; };
 		F536ED781AFA813F00F0A3DF /* water.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = water.vert; sourceTree = "<group>"; };
 		F536ED7B1AFA8B1D00F0A3DF /* water.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = water.frag; sourceTree = "<group>"; };
 		F536ED801AFA8F0000F0A3DF /* water.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = water.jpg; sourceTree = "<group>"; };
+		F5407FA81AFDD7DC005684E7 /* BaseGameEntity.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BaseGameEntity.cpp; path = Entity/BaseGameEntity.cpp; sourceTree = "<group>"; };
+		F5407FA91AFDD7DC005684E7 /* BaseGameEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseGameEntity.h; path = Entity/BaseGameEntity.h; sourceTree = "<group>"; };
+		F5407FAA1AFDD7DC005684E7 /* EntityNames.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EntityNames.h; path = Entity/EntityNames.h; sourceTree = "<group>"; };
+		F5407FAD1AFDD7E8005684E7 /* State.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = State.h; path = FSM/State.h; sourceTree = "<group>"; };
+		F5407FAE1AFDD7E8005684E7 /* StateMachine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StateMachine.h; path = FSM/StateMachine.h; sourceTree = "<group>"; };
+		F5407FAF1AFDD7F5005684E7 /* EnterMineAndDigForNugget.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = EnterMineAndDigForNugget.cpp; path = Miner/EnterMineAndDigForNugget.cpp; sourceTree = "<group>"; };
+		F5407FB01AFDD7F5005684E7 /* EnterMineAndDigForNugget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EnterMineAndDigForNugget.h; path = Miner/EnterMineAndDigForNugget.h; sourceTree = "<group>"; };
+		F5407FB11AFDD7F5005684E7 /* GoHomeAndSleepTilRested.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GoHomeAndSleepTilRested.cpp; path = Miner/GoHomeAndSleepTilRested.cpp; sourceTree = "<group>"; };
+		F5407FB21AFDD7F5005684E7 /* GoHomeAndSleepTilRested.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GoHomeAndSleepTilRested.h; path = Miner/GoHomeAndSleepTilRested.h; sourceTree = "<group>"; };
+		F5407FB31AFDD7F5005684E7 /* GoToWorldBuyHouse.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GoToWorldBuyHouse.cpp; path = Miner/GoToWorldBuyHouse.cpp; sourceTree = "<group>"; };
+		F5407FB41AFDD7F5005684E7 /* GoToWorldBuyHouse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GoToWorldBuyHouse.h; path = Miner/GoToWorldBuyHouse.h; sourceTree = "<group>"; };
+		F5407FB51AFDD7F5005684E7 /* Miner.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Miner.cpp; path = Miner/Miner.cpp; sourceTree = "<group>"; };
+		F5407FB61AFDD7F5005684E7 /* Miner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Miner.h; path = Miner/Miner.h; sourceTree = "<group>"; };
+		F5407FB71AFDD7F5005684E7 /* MinerUI.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MinerUI.cpp; path = Miner/MinerUI.cpp; sourceTree = "<group>"; };
+		F5407FB81AFDD7F5005684E7 /* MinerUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MinerUI.h; path = Miner/MinerUI.h; sourceTree = "<group>"; };
+		F5407FB91AFDD7F5005684E7 /* QuenchThirst.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = QuenchThirst.cpp; path = Miner/QuenchThirst.cpp; sourceTree = "<group>"; };
+		F5407FBA1AFDD7F5005684E7 /* QuenchThirst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QuenchThirst.h; path = Miner/QuenchThirst.h; sourceTree = "<group>"; };
+		F5407FBB1AFDD7F5005684E7 /* States.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = States.h; path = Miner/States.h; sourceTree = "<group>"; };
+		F5407FBC1AFDD7F5005684E7 /* VisitBankAndDepositGold.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = VisitBankAndDepositGold.cpp; path = Miner/VisitBankAndDepositGold.cpp; sourceTree = "<group>"; };
+		F5407FBD1AFDD7F5005684E7 /* VisitBankAndDepositGold.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VisitBankAndDepositGold.h; path = Miner/VisitBankAndDepositGold.h; sourceTree = "<group>"; };
+		F5407FCC1AFDD800005684E7 /* EntityManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = EntityManager.cpp; path = Managers/EntityManager.cpp; sourceTree = "<group>"; };
+		F5407FCD1AFDD800005684E7 /* EntityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EntityManager.h; path = Managers/EntityManager.h; sourceTree = "<group>"; };
+		F5407FCE1AFDD800005684E7 /* MessageDispatcher.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MessageDispatcher.cpp; path = Managers/MessageDispatcher.cpp; sourceTree = "<group>"; };
+		F5407FCF1AFDD800005684E7 /* MessageDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MessageDispatcher.h; path = Managers/MessageDispatcher.h; sourceTree = "<group>"; };
+		F5407FD41AFDD80C005684E7 /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Message.h; path = Message/Message.h; sourceTree = "<group>"; };
+		F5E97F371AFDE3870070477F /* CookStew.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CookStew.cpp; path = MinerWife/CookStew.cpp; sourceTree = "<group>"; };
+		F5E97F381AFDE3870070477F /* CookStew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CookStew.h; path = MinerWife/CookStew.h; sourceTree = "<group>"; };
+		F5E97F391AFDE3870070477F /* DoHouseWork.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DoHouseWork.cpp; path = MinerWife/DoHouseWork.cpp; sourceTree = "<group>"; };
+		F5E97F3A1AFDE3870070477F /* DoHouseWork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DoHouseWork.h; path = MinerWife/DoHouseWork.h; sourceTree = "<group>"; };
+		F5E97F3B1AFDE3870070477F /* MinerWife.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MinerWife.cpp; path = MinerWife/MinerWife.cpp; sourceTree = "<group>"; };
+		F5E97F3C1AFDE3870070477F /* MinerWife.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MinerWife.h; path = MinerWife/MinerWife.h; sourceTree = "<group>"; };
+		F5E97F3D1AFDE3870070477F /* States.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = States.h; path = MinerWife/States.h; sourceTree = "<group>"; };
+		F5E97F441AFDE4B40070477F /* EatStew.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = EatStew.cpp; path = Miner/EatStew.cpp; sourceTree = "<group>"; };
+		F5E97F451AFDE4B40070477F /* EatStew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EatStew.h; path = Miner/EatStew.h; sourceTree = "<group>"; };
+		F5E97F481AFDF1800070477F /* Fly.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Fly.cpp; path = Animal/Fly.cpp; sourceTree = "<group>"; };
+		F5E97F491AFDF1800070477F /* Fly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Fly.h; path = Animal/Fly.h; sourceTree = "<group>"; };
+		F5E97F4D1AFDF54E0070477F /* HitFly.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HitFly.cpp; path = Miner/HitFly.cpp; sourceTree = "<group>"; };
+		F5E97F4E1AFDF54E0070477F /* HitFly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HitFly.h; path = Miner/HitFly.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -312,35 +341,21 @@
 		46880B8319C43A87006E1F66 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				F53606171AFCC89B0020B1E2 /* EnterMineAndDigForNugget.cpp */,
-				F53606181AFCC89B0020B1E2 /* EnterMineAndDigForNugget.h */,
+				F5E97F4C1AFDF1850070477F /* Animal */,
+				F5407FA21AFDD628005684E7 /* Entity */,
+				F5407F9B1AFDD609005684E7 /* FSM */,
+				F5407FD91AFDDA33005684E7 /* MinerWife */,
+				F5407F841AFDD5F6005684E7 /* Miner */,
+				F5407F7D1AFDD5E9005684E7 /* Managers */,
+				F5407F7B1AFDD5D8005684E7 /* Message */,
 				F53605EA1AFCC86C0020B1E2 /* AppDelegate.cpp */,
 				F53605EB1AFCC86C0020B1E2 /* AppDelegate.h */,
-				F53605EC1AFCC86C0020B1E2 /* BaseGameEntity.cpp */,
-				F53605ED1AFCC86C0020B1E2 /* BaseGameEntity.h */,
 				F53605EE1AFCC86C0020B1E2 /* HelloWorldScene.cpp */,
 				F53605EF1AFCC86C0020B1E2 /* HelloWorldScene.h */,
-				F53605F01AFCC86C0020B1E2 /* Miner.cpp */,
-				F53605F11AFCC86C0020B1E2 /* Miner.h */,
-				F53605F21AFCC86C0020B1E2 /* MinerUI.cpp */,
-				F53605F31AFCC86C0020B1E2 /* MinerUI.h */,
-				F53605F41AFCC86C0020B1E2 /* QuenchThirst.cpp */,
-				F53605F51AFCC86C0020B1E2 /* QuenchThirst.h */,
-				F536061B1AFCC8BA0020B1E2 /* GoHomeAndSleepTilRested.cpp */,
-				F536061C1AFCC8BA0020B1E2 /* GoHomeAndSleepTilRested.h */,
-				F53605F61AFCC86C0020B1E2 /* State.cpp */,
-				F53605F71AFCC86C0020B1E2 /* State.h */,
-				F53605F81AFCC86C0020B1E2 /* StateMachine.cpp */,
-				F53605F91AFCC86C0020B1E2 /* StateMachine.h */,
-				F53605FA1AFCC86C0020B1E2 /* States.h */,
-				F53605FB1AFCC86C0020B1E2 /* VisitBankAndDepositGold.cpp */,
-				F53605FC1AFCC86C0020B1E2 /* VisitBankAndDepositGold.h */,
 				F53605FD1AFCC86C0020B1E2 /* WaterWave.cpp */,
 				F53605FE1AFCC86C0020B1E2 /* WaterWave.h */,
 				F53605FF1AFCC86C0020B1E2 /* WorldMap.cpp */,
 				F53606001AFCC86C0020B1E2 /* WorldMap.h */,
-				F536061F1AFCD7E00020B1E2 /* GoToWorldBuyHouse.cpp */,
-				F53606201AFCD7E00020B1E2 /* GoToWorldBuyHouse.h */,
 			);
 			name = Classes;
 			path = ../Classes;
@@ -400,6 +415,93 @@
 			name = Icons;
 			path = ios;
 			sourceTree = SOURCE_ROOT;
+		};
+		F5407F7B1AFDD5D8005684E7 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				F5407FD41AFDD80C005684E7 /* Message.h */,
+			);
+			name = Message;
+			sourceTree = "<group>";
+		};
+		F5407F7D1AFDD5E9005684E7 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				F5407FCC1AFDD800005684E7 /* EntityManager.cpp */,
+				F5407FCD1AFDD800005684E7 /* EntityManager.h */,
+				F5407FCE1AFDD800005684E7 /* MessageDispatcher.cpp */,
+				F5407FCF1AFDD800005684E7 /* MessageDispatcher.h */,
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+		F5407F841AFDD5F6005684E7 /* Miner */ = {
+			isa = PBXGroup;
+			children = (
+				F5E97F441AFDE4B40070477F /* EatStew.cpp */,
+				F5E97F451AFDE4B40070477F /* EatStew.h */,
+				F5407FAF1AFDD7F5005684E7 /* EnterMineAndDigForNugget.cpp */,
+				F5407FB01AFDD7F5005684E7 /* EnterMineAndDigForNugget.h */,
+				F5407FB11AFDD7F5005684E7 /* GoHomeAndSleepTilRested.cpp */,
+				F5407FB21AFDD7F5005684E7 /* GoHomeAndSleepTilRested.h */,
+				F5407FB31AFDD7F5005684E7 /* GoToWorldBuyHouse.cpp */,
+				F5407FB41AFDD7F5005684E7 /* GoToWorldBuyHouse.h */,
+				F5407FB51AFDD7F5005684E7 /* Miner.cpp */,
+				F5407FB61AFDD7F5005684E7 /* Miner.h */,
+				F5407FB71AFDD7F5005684E7 /* MinerUI.cpp */,
+				F5407FB81AFDD7F5005684E7 /* MinerUI.h */,
+				F5407FB91AFDD7F5005684E7 /* QuenchThirst.cpp */,
+				F5407FBA1AFDD7F5005684E7 /* QuenchThirst.h */,
+				F5407FBB1AFDD7F5005684E7 /* States.h */,
+				F5407FBC1AFDD7F5005684E7 /* VisitBankAndDepositGold.cpp */,
+				F5407FBD1AFDD7F5005684E7 /* VisitBankAndDepositGold.h */,
+				F5E97F4D1AFDF54E0070477F /* HitFly.cpp */,
+				F5E97F4E1AFDF54E0070477F /* HitFly.h */,
+			);
+			name = Miner;
+			sourceTree = "<group>";
+		};
+		F5407F9B1AFDD609005684E7 /* FSM */ = {
+			isa = PBXGroup;
+			children = (
+				F5407FAD1AFDD7E8005684E7 /* State.h */,
+				F5407FAE1AFDD7E8005684E7 /* StateMachine.h */,
+			);
+			name = FSM;
+			sourceTree = "<group>";
+		};
+		F5407FA21AFDD628005684E7 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				F5407FA81AFDD7DC005684E7 /* BaseGameEntity.cpp */,
+				F5407FA91AFDD7DC005684E7 /* BaseGameEntity.h */,
+				F5407FAA1AFDD7DC005684E7 /* EntityNames.h */,
+			);
+			name = Entity;
+			sourceTree = "<group>";
+		};
+		F5407FD91AFDDA33005684E7 /* MinerWife */ = {
+			isa = PBXGroup;
+			children = (
+				F5E97F371AFDE3870070477F /* CookStew.cpp */,
+				F5E97F381AFDE3870070477F /* CookStew.h */,
+				F5E97F391AFDE3870070477F /* DoHouseWork.cpp */,
+				F5E97F3A1AFDE3870070477F /* DoHouseWork.h */,
+				F5E97F3B1AFDE3870070477F /* MinerWife.cpp */,
+				F5E97F3C1AFDE3870070477F /* MinerWife.h */,
+				F5E97F3D1AFDE3870070477F /* States.h */,
+			);
+			name = MinerWife;
+			sourceTree = "<group>";
+		};
+		F5E97F4C1AFDF1850070477F /* Animal */ = {
+			isa = PBXGroup;
+			children = (
+				F5E97F481AFDF1800070477F /* Fly.cpp */,
+				F5E97F491AFDF1800070477F /* Fly.h */,
+			);
+			name = Animal;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -524,22 +626,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F53606111AFCC86C0020B1E2 /* VisitBankAndDepositGold.cpp in Sources */,
-				F53606031AFCC86C0020B1E2 /* BaseGameEntity.cpp in Sources */,
+				F5E97F3E1AFDE3870070477F /* CookStew.cpp in Sources */,
 				F53606011AFCC86C0020B1E2 /* AppDelegate.cpp in Sources */,
+				F5E97F421AFDE3870070477F /* MinerWife.cpp in Sources */,
+				F5407FC81AFDD7F5005684E7 /* QuenchThirst.cpp in Sources */,
 				F53606051AFCC86C0020B1E2 /* HelloWorldScene.cpp in Sources */,
-				F536060F1AFCC86C0020B1E2 /* StateMachine.cpp in Sources */,
-				F536060B1AFCC86C0020B1E2 /* QuenchThirst.cpp in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
-				F536061D1AFCC8BA0020B1E2 /* GoHomeAndSleepTilRested.cpp in Sources */,
-				F53606191AFCC89B0020B1E2 /* EnterMineAndDigForNugget.cpp in Sources */,
+				F5407FC01AFDD7F5005684E7 /* GoHomeAndSleepTilRested.cpp in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
-				F53606091AFCC86C0020B1E2 /* MinerUI.cpp in Sources */,
-				F536060D1AFCC86C0020B1E2 /* State.cpp in Sources */,
-				F53606071AFCC86C0020B1E2 /* Miner.cpp in Sources */,
-				F53606211AFCD7E00020B1E2 /* GoToWorldBuyHouse.cpp in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
+				F5407FAB1AFDD7DC005684E7 /* BaseGameEntity.cpp in Sources */,
+				F5407FC61AFDD7F5005684E7 /* MinerUI.cpp in Sources */,
+				F5407FC21AFDD7F5005684E7 /* GoToWorldBuyHouse.cpp in Sources */,
+				F5407FD21AFDD800005684E7 /* MessageDispatcher.cpp in Sources */,
+				F5407FD01AFDD800005684E7 /* EntityManager.cpp in Sources */,
+				F5E97F401AFDE3870070477F /* DoHouseWork.cpp in Sources */,
+				F5E97F461AFDE4B40070477F /* EatStew.cpp in Sources */,
+				F5E97F4F1AFDF54E0070477F /* HitFly.cpp in Sources */,
 				F53606131AFCC86C0020B1E2 /* WaterWave.cpp in Sources */,
+				F5407FC41AFDD7F5005684E7 /* Miner.cpp in Sources */,
+				F5407FCA1AFDD7F5005684E7 /* VisitBankAndDepositGold.cpp in Sources */,
+				F5E97F4A1AFDF1800070477F /* Fly.cpp in Sources */,
+				F5407FBE1AFDD7F5005684E7 /* EnterMineAndDigForNugget.cpp in Sources */,
 				F53606151AFCC86C0020B1E2 /* WorldMap.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -548,21 +656,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F53606081AFCC86C0020B1E2 /* Miner.cpp in Sources */,
-				F536060C1AFCC86C0020B1E2 /* QuenchThirst.cpp in Sources */,
-				F53606121AFCC86C0020B1E2 /* VisitBankAndDepositGold.cpp in Sources */,
-				F53606101AFCC86C0020B1E2 /* StateMachine.cpp in Sources */,
+				F5E97F471AFDE4B40070477F /* EatStew.cpp in Sources */,
 				F53606141AFCC86C0020B1E2 /* WaterWave.cpp in Sources */,
-				F53606221AFCD7E00020B1E2 /* GoToWorldBuyHouse.cpp in Sources */,
+				F5407FAC1AFDD7DC005684E7 /* BaseGameEntity.cpp in Sources */,
+				F5E97F4B1AFDF1800070477F /* Fly.cpp in Sources */,
+				F5E97F431AFDE3870070477F /* MinerWife.cpp in Sources */,
+				F5E97F501AFDF54E0070477F /* HitFly.cpp in Sources */,
+				F5407FBF1AFDD7F5005684E7 /* EnterMineAndDigForNugget.cpp in Sources */,
+				F5407FC91AFDD7F5005684E7 /* QuenchThirst.cpp in Sources */,
+				F5407FCB1AFDD7F5005684E7 /* VisitBankAndDepositGold.cpp in Sources */,
 				F53606021AFCC86C0020B1E2 /* AppDelegate.cpp in Sources */,
-				F536061A1AFCC89B0020B1E2 /* EnterMineAndDigForNugget.cpp in Sources */,
-				F536060E1AFCC86C0020B1E2 /* State.cpp in Sources */,
 				F53606161AFCC86C0020B1E2 /* WorldMap.cpp in Sources */,
-				F53606041AFCC86C0020B1E2 /* BaseGameEntity.cpp in Sources */,
-				F536060A1AFCC86C0020B1E2 /* MinerUI.cpp in Sources */,
+				F5407FC51AFDD7F5005684E7 /* Miner.cpp in Sources */,
+				F5407FD31AFDD800005684E7 /* MessageDispatcher.cpp in Sources */,
+				F5E97F411AFDE3870070477F /* DoHouseWork.cpp in Sources */,
 				F53606061AFCC86C0020B1E2 /* HelloWorldScene.cpp in Sources */,
+				F5407FC71AFDD7F5005684E7 /* MinerUI.cpp in Sources */,
 				503AE10517EB98FF00D1A890 /* main.cpp in Sources */,
-				F536061E1AFCC8BA0020B1E2 /* GoHomeAndSleepTilRested.cpp in Sources */,
+				F5E97F3F1AFDE3870070477F /* CookStew.cpp in Sources */,
+				F5407FC11AFDD7F5005684E7 /* GoHomeAndSleepTilRested.cpp in Sources */,
+				F5407FD11AFDD800005684E7 /* EntityManager.cpp in Sources */,
+				F5407FC31AFDD7F5005684E7 /* GoToWorldBuyHouse.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -706,9 +820,10 @@
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
 				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
@@ -737,8 +852,9 @@
 		C01FCF5008A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (

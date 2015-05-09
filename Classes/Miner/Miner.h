@@ -9,8 +9,10 @@
 #ifndef __test226__Miner__
 #define __test226__Miner__
 
-#include "BaseGameEntity.h"
-#include "StateMachine.h"
+#include "../Entity/BaseGameEntity.h"
+#include "../FSM/StateMachine.h"
+#include "../Managers/MessageDispatcher.h"
+#include "../Entity/EntityNames.h"
 #include "WorldMap.h"
 
 class MinerUI;
@@ -33,6 +35,7 @@ public:
     ~Miner();
     bool init();
     void update(float dt);
+    void handleMessage(const Telegram& msg);
     const char* getName();
     StateMachine<Miner>* getFSM() { return m_pStateMachine; }
     void updatePos(float dt);
@@ -44,18 +47,21 @@ public:
     void decreaseFatigue();
     bool isPocketsFull();
     bool isThirsty();
+    void increaseThirsty();
     void buyADirnk();
+    void justDrink();
     bool isFatigued();
     bool isCanSaveToBank();
     bool isCanBuyHouse();
     void buyHouse(WorldMap::HouseType type);
     
+    void hitFly();
+    
     LocationType getLocationType() { return m_locationType; }
-    bool setLocationType(LocationType location);
+    void setTargetLocationType(LocationType location);
     
 private:
     StateMachine<Miner>* m_pStateMachine;
-    DrawNode* m_drawNode;
     
     Vec2 m_ptPos;
     float m_speed;

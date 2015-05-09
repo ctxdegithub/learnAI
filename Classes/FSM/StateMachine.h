@@ -11,6 +11,7 @@
 
 #include "State.h"
 #include "cocos2d.h"
+#include "../Message/Message.h"
 
 template <class entity_type>
 class StateMachine
@@ -37,6 +38,16 @@ public:
 //        {
 //            m_pGlobalState->execute(m_pOwner);
 //        }
+    }
+    
+    bool handleMessage(const Telegram& msg)
+    {
+        if (m_pCurrentState && m_pCurrentState->onMessage(m_pOwner, msg))
+        {
+            return true;
+        }
+        
+        return false;
     }
     
     void changeState(State<entity_type> *pNewState)

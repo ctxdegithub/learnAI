@@ -5,6 +5,7 @@
 #include "WorldMap.h"
 
 class Miner;
+class MinerWife;
 class HelloWorld : public cocos2d::Layer
 {
 public:
@@ -21,6 +22,7 @@ public:
 private:
     WorldMap* m_worldMap;
     Miner* m_pMiner;
+    MinerWife* m_pMinerWife;
     float m_time;
 };
 

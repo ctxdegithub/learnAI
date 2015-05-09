@@ -9,7 +9,7 @@
 #ifndef __Learn36__GoToWorldBuyHouse__
 #define __Learn36__GoToWorldBuyHouse__
 
-#include "State.h"
+#include "../FSM/State.h"
 #include "Miner.h"
 
 class GoToWorldBuyHouse : public State<Miner>
@@ -19,6 +19,8 @@ public:
     virtual void onEnter(Miner* pMiner);
     virtual void onExit(Miner* pMiner);
     virtual void execute(Miner* pMiner);
+    
+    virtual bool onMessage(Miner* pMiner, const Telegram& msg) { return true; }
     
 private:
     GoToWorldBuyHouse() {}
